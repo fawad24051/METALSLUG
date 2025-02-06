@@ -141,7 +141,7 @@ int main()
 
 					DrawTexture(player_shootR, p1x, temp_p1y, WHITE);
 					DrawTexture(player_bulletR,temp_bulletRx, temp_p1y+20, WHITE);
-					while (temp_bulletRx != screenwidth)
+					while (temp_bulletRx != screenheight)
 					{
 						temp_bulletRx += 7;
 					}
